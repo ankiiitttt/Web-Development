@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OVERFLOW</title>
+    <style>
+        .box{
+            height: 20vh;
+            width: 20vw;
+            border: 2px solid black;
+            overflow: scroll;
+            /* overflow: clip; */
+        }
+        .box2{
+            height: 40vh;
+            width: 30vw;
+            border: 2px solid black;
+            overflow: auto;
+            white-space: nowrap;
+            /* text-overflow: ellipsis; */
+        }
+        .box3{
+            height: 20vh;
+            width: 20vw;
+            border: 2px solid black;
+            /* overflow-x: auto;
+            overflow-y: scroll; */
+            overflow: auto hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolorum atque ipsa. Vitae quos iste quod harum labore, mollitia doloremque odio aliquid, animi delectus voluptas reiciendis esse ipsa nisi soluta quam porro numquam? Soluta aspernatur inventore illo deserunt debitis quae error dolorem magnam delectus repudiandae voluptas cupiditate, quod totam ratione. Neque quidem ut tenetur veritatis ratione.</div>
+    
+    <div class="box2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore quas totam quis pariatur minima dolores, veniam, aliquam harum explicabo doloremque architecto est corporis rem iste earum distinctio neque, tempora ad modi? Aperiam delectus voluptatibus molestiae autem, praesentium impedit excepturi iusto culpa earum nemo sit dicta neque, esse, voluptatem exercitationem! Ipsum veritatis, odit asperiores fugit, unde quis tempora illum exercitationem quaerat quam nihil, vitae perferendis blanditiis incidunt.
+    </div>
+    <div class="box3">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat nobis deleniti, dolor voluptatem incidunt, in quis id deserunt atque vitae vel adipisci mollitia!
+    </div>
+</body>
+</html>
