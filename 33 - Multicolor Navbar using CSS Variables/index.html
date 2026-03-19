@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnkitNavbar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --textcolor: white;
+            --maincolor: rgb(13, 13, 88);
+            --seccolor: rgb(122, 7, 55);
+            --defmar: 5px;
+            --defpad: 5px;
+            --pad2: 10px;
+        }
+
+        body {
+            background-color: darkgreen;
+        }
+
+        ul {
+            display: flex;
+            /* margin: var(--defmar); */
+            padding: var(--pad2);
+            list-style: none;
+        }
+
+        ul li {
+            padding: var(--pad2);
+        }
+
+        .navbar {
+            color: var(--textcolor);
+            background-color: var(--seccolor);
+            margin: var(--defmar);
+            padding: var(--defpad);
+        }
+
+        div p {
+            background-color: var(--maincolor);
+            color: var(--textcolor);
+            margin: var(--defmar);
+            padding: var(--defpad);
+        }
+        div p:last-child{
+            background-color: var(--seccolor);
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Gallery</li>
+        </ul>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia iure repellat atque soluta odio quo neque quis
+            expedita quod mollitia est delectus, ducimus voluptatum tenetur autem ea magnam eos cum iste officia dolores
+            doloremque. Placeat nihil in sit hic? Esse officia error hic, sequi voluptatum voluptate aliquam assumenda
+            iste, eius aperiam nihil enim optio deserunt facere dolore aliquid distinctio perspiciatis! Quis dolor eum
+            tempora, atque id reiciendis architecto aut reprehenderit fugiat praesentium minus, ipsum consequuntur nisi
+            tempore nulla sit ea beatae quae repellendus facere perspiciatis eius expedita. Nemo.</p>
+
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, ullam adipisci doloribus debitis
+            reprehenderit ad nihil animi dolores vitae expedita quo illum omnis atque explicabo cum veniam nostrum autem
+            exercitationem, itaque fuga? At perspiciatis et dolorum, debitis, expedita magni id unde doloremque eveniet
+            aliquam aliquid sed ab harum dolorem ducimus fuga cumque. Voluptate, temporibus assumenda? Quia, voluptas!
+            Laborum molestiae iure tenetur maxime voluptatem ut perspiciatis libero eius architecto, porro explicabo
+            unde cum cupiditate quod alias eaque quos dignissimos quam similique consequuntur numquam! Voluptates nulla
+            exercitationem optio consequatur qui quasi minus?
+        </p>
+    </div>
+</body>
+
+</html>
