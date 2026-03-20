@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .box:first-child{
+            background-color: rgb(31, 155, 19);
+        } */
+        /* .box::first-line{
+            color: rgb(201, 36, 36);
+        } */
+        /* .boxes *{
+            color: blueviolet;
+            border: 2px solid black;
+        } */
+        /* [data-color = "primary"]{
+            margin-top: 50px;
+            padding: 35px;
+        } */
+
+        /* p , a , .box, [data-color = "primary"]{
+            margin-top: 50px;
+            padding: 35px;
+        } */
+
+        /* .box:nth-child(odd){
+            background-color: cornflowerblue;
+        } */
+
+    /* .box:nth-last-child(1){
+        background-color: grey;
+    } */
+     .boxes::before{
+        content: "My name is Ankit";
+        /* border: 2px solid black; */
+        /* padding: 5px; */
+        background-color: aquamarine;
+
+     }
+     .boxes::after{
+        content: "I love travelling and exploring.";
+        /* border: 2px solid black; */
+        /* padding: 5px; */
+        background-color: aqua;
+     }
+     ::selection{
+        color: aquamarine;
+        background-color: black;
+     }
+     .box::first-letter{
+        font-size: 30px;
+        color: red;
+     }
+     input::placeholder{
+        color:red;
+        opacity: 40%;
+     }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">I am the first Box</div>
+        <div class="box">Hey I am a Box.</div>
+        <div class="box">Hey I am a Box.</div>
+        <input type="text" placeholder="enter your name here">
+    </div>
+</body>
+</html>
