@@ -1,0 +1,58 @@
+.container {
+    background-color: rgb(29, 51, 6);
+    width: 35vw;
+    height: 80vh;
+}
+
+.box {
+    /* background-color: rgb(76, 163, 152); */
+    width: 35px;
+    height: 50px;
+    /* animation-name: ankit-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-direction: alternate-reverse;
+    animation-play-state: running; */
+    animation: ankit-animation 5s ease-in-out 0s infinite alternate-reverse,
+               ankit2 5s ease-in-out 0s infinite alternate-reverse;
+}
+
+@keyframes ankit-animation {
+    from {
+        background-color: red;
+    }
+
+    to {
+        transform: translateX(1000px);
+        background-color: yellow;
+    }
+}
+
+@keyframes ankit2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    20% {
+        transform: rotate(72deg);
+    }
+
+    40% {
+        transform: rotate(144deg)
+    }
+
+    60% {
+        transform: rotate(216deg)
+    }
+
+    80% {
+        transform: rotate(288)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+
+}
