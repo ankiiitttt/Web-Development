@@ -1,0 +1,8 @@
+img{
+    /* filter: blur(2px); */
+    filter: contrast(120%);
+    filter: brightness(130%);
+    filter: drop-shadow(16px 16px 20px rgb(43, 43, 105));
+    /* filter: saturate(120%); */
+    /* filter: sepia(0.5); */
+}
